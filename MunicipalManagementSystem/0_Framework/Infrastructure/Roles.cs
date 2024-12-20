@@ -45,16 +45,17 @@ public static class Roles
             case 10010:
                 return " کارشناس اجرائیات";
             case 10011:
-                return " کارشناس دبیرخانه ماده صد";
+                return " کارشناس  ماده صد";
             case 10012:
-                return " کارشناس دبیرخانه ماده صد";
+                return " کارشناس طرح تفصیلی";
             case 10013:
-                return " کارشناس دبیرخانه ماده صد";
+                return " کارشناس کنترل نظارت";
             case 10014:
-                return " کارشناس دبیرخانه ماده صد";
+                return "کارشناس نوسازی";
             case 10015:
+                return "مسئول نوسازی";
+            case 10016:
                 return " دبیر کمیسیون ماده صد";
-
             default:
                 return "نا مشخص";
         }

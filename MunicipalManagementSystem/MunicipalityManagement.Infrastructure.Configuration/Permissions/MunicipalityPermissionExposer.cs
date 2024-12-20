@@ -90,7 +90,6 @@ public class MunicipalityPermissionExposer : IPermissionExposer
 
                    new(MunicipalityPermissions.sabtedarkhast, "ثبت درخواست"),
                     new(MunicipalityPermissions.sabtebzdid, "ثبت گزارش بازدید "),
-                    //new PermissionDto(MunicipalityPermissions.sabtepishnevis, "ثبت گزارش پیش نویس "),
                     new(MunicipalityPermissions.viewgozaresh, "مشاهد گزارش"),
                     new(MunicipalityPermissions.hazfebazdid, "حذف گزارش بازدید"),
                 }
@@ -105,11 +104,12 @@ public class MunicipalityPermissionExposer : IPermissionExposer
                     new(MunicipalityPermissions.eskanfilemadesad, "اسکن رای ماده صد"),
                     new(MunicipalityPermissions.sabteray, "ثبت رای"),
                     new(MunicipalityPermissions.eslahray, "اصلاح رای"),
-                    new(MunicipalityPermissions.eslahray, "تایید رای"),
-                    new(MunicipalityPermissions.eslahray, "لغو رای"),
+                    new(MunicipalityPermissions.taeidray, "تایید رای"),
+                    new(MunicipalityPermissions.laghveray, "لغو رای"),
                     new(MunicipalityPermissions.hazfray,  "حذف رای"),
-                    new(MunicipalityPermissions.ViewTedadShoab,  " مشاهده تعداد شعب"),
-                    new(MunicipalityPermissions.ViewShoabList,  "مشاهده لیست شعب"),
+                    new(MunicipalityPermissions.printray,  "جاپ رای"),
+                    new(MunicipalityPermissions.ViewTedadShoab,  " مشاهده لیست شعب"),
+                    new(MunicipalityPermissions.ViewShoabList,  "چاپ لیست شعب"),
 
                 }
             }
