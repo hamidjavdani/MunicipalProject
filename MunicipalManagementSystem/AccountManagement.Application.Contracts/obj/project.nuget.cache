@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FxpR+8Ug5h8=",
+  "dgSpecHash": "+M4W7Bz5rFo=",
   "success": true,
-  "projectFilePath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JS\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

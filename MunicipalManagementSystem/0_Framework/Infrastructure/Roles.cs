@@ -21,6 +21,7 @@ public static class Roles
     public const string k13 = "10018";
     public const string k14 = "10019";
     public const string k15 = "10020";
+    public const string k16 = "10021";
     public static string GetRoleBy(long id)
     {
         switch (id)
@@ -45,6 +46,15 @@ public static class Roles
                 return " کارشناس اجرائیات";
             case 10011:
                 return " کارشناس دبیرخانه ماده صد";
+            case 10012:
+                return " کارشناس دبیرخانه ماده صد";
+            case 10013:
+                return " کارشناس دبیرخانه ماده صد";
+            case 10014:
+                return " کارشناس دبیرخانه ماده صد";
+            case 10015:
+                return " دبیر کمیسیون ماده صد";
+
             default:
                 return "نا مشخص";
         }

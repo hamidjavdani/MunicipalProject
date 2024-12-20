@@ -3170,11 +3170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj",
+      "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj",
       "projectName": "0_Framework",
-      "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj",
+      "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj",
       "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-      "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\obj\\",
+      "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

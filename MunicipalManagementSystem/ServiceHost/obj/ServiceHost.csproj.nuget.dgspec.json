@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\ServiceHost.csproj": {}
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\01_MunicipalQuery.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\01_MunicipalQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\01_MunicipalQuery.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\01_MunicipalQuery.csproj",
         "projectName": "01_MunicipalQuery",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\01_MunicipalQuery.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\01_MunicipalQuery.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -182,14 +182,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
         "projectName": "AccountManagement.Application.Contracts",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -212,8 +212,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -269,14 +269,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountManagement.Application.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountManagement.Application.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountManagement.Application.csproj",
         "projectName": "AccountManagement.Application",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountManagement.Application.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountManagement.Application.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -299,14 +299,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
               }
             }
           }
@@ -362,14 +362,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
         "projectName": "AccountManagement.Configuration",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -392,17 +392,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountManagement.Application.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountManagement.Application.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountManagement.Application.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountManagement.Application.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -458,14 +458,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
         "projectName": "AccountManagement.Domain",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -488,11 +488,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application.Contracts\\AccountManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -544,14 +544,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
         "projectName": "AccountMangement.Infrastructure.EFCore",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -574,8 +574,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
               }
             }
           }
@@ -637,14 +637,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj",
         "projectName": "MunicipalityManagement.Application.Contracts",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -667,8 +667,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -720,14 +720,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj",
         "projectName": "MunicipalityManagement.Application",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -750,11 +750,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
               }
             }
           }
@@ -806,14 +806,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj",
         "projectName": "MunicipalityManagement.Domain",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -836,11 +836,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application.Contracts\\MunicipalityManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -892,14 +892,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj",
         "projectName": "MunicipalityManagement.Infrastructure.Configuration",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -922,17 +922,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\01_MunicipalQuery.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\01_MunicipalQuery\\01_MunicipalQuery.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\01_MunicipalQuery.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\01_MunicipalQuery\\01_MunicipalQuery.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Application\\MunicipalityManagement.Application.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -988,14 +988,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj",
         "projectName": "MunicipalityManagement.Infrastructure.EFCore",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\MunicipalityManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1018,8 +1018,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Domain\\MunicipalityManagement.Domain.csproj"
               }
             }
           }
@@ -1081,14 +1081,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj",
         "projectName": "PersonManagement.Application.Contracts",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1111,8 +1111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -1164,14 +1164,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\PersonManagement.Application.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\PersonManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\PersonManagement.Application.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\PersonManagement.Application.csproj",
         "projectName": "PersonManagement.Application",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\PersonManagement.Application.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\PersonManagement.Application.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1194,11 +1194,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
               }
             }
           }
@@ -1250,14 +1250,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj",
         "projectName": "PersonManagement.Configuration",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1280,14 +1280,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\PersonManagement.Application.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application\\PersonManagement.Application.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\PersonManagement.Application.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application\\PersonManagement.Application.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -1339,14 +1339,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
         "projectName": "PersonManagement.Domain",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1369,11 +1369,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\0_Framework.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\0_Framework.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Application.Contracts\\PersonManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -1425,14 +1425,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj",
         "projectName": "PersonMangement.Infrastructure.EFCore",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\PersonMangement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonMangement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonMangement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1455,8 +1455,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Domain\\PersonManagement.Domain.csproj"
               }
             }
           }
@@ -1518,14 +1518,14 @@
         }
       }
     },
-    "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\ServiceHost.csproj": {
+    "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\ServiceHost.csproj",
+        "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\ServiceHost.csproj",
         "projectName": "ServiceHost",
-        "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\ServiceHost.csproj",
+        "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\ServiceHost.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\obj\\",
+        "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1548,14 +1548,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagement.Configuration.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj"
               },
-              "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj": {
-                "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj"
+              "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj": {
+                "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\PersonManagement.Configuration\\PersonManagement.Configuration.csproj"
               }
             }
           }

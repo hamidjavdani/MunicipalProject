@@ -4929,11 +4929,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
+      "projectUniqueName": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
       "projectName": "AccountMangement.Infrastructure.EFCore",
-      "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
+      "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-      "outputPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\obj\\",
+      "outputPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4956,8 +4956,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
-              "projectPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
+            "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj": {
+              "projectPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\AccountManagement.Domain.csproj"
             }
           }
         }

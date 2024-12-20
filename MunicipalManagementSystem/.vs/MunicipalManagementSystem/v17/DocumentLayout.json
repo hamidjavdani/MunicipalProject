@@ -1,117 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\",
+  "WorkspaceRootPath": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\0_framework\\infrastructure\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\securitypagefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\securitypagefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\0_framework\\application\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\application\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\areas\\administration\\pages\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\areas\\administration\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\areas\\administration\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|solutionrelative:municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79870435-FC19-4A4D-85AE-EFB1E1793468}|AccountManagement.Domain\\AccountManagement.Domain.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmanagement.domain\\roleagg\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79870435-FC19-4A4D-85AE-EFB1E1793468}|AccountManagement.Domain\\AccountManagement.Domain.csproj|solutionrelative:accountmanagement.domain\\roleagg\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|solutionrelative:municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCF135CB-A091-4144-9EF6-403CC80645EC}|AccountManagement.Configuration\\AccountManagement.Configuration.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmanagement.configuration\\accountmanagementbootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCF135CB-A091-4144-9EF6-403CC80645EC}|AccountManagement.Configuration\\AccountManagement.Configuration.csproj|solutionrelative:accountmanagement.configuration\\accountmanagementbootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\0_framework\\infrastructure\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\repository\\jobschartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\jobschartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\repository\\accountjobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\accountjobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\mappings\\titelpermissionmpping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\mappings\\titelpermissionmpping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmangement.infrastructure.efcore\\mappings\\rolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\mappings\\rolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\0_framework\\infrastructure\\needspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\needspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E2D4BE-A80C-4A10-A87C-BBBDC9393BDF}|AccountManagement.Application\\AccountManagement.Application.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\accountmanagement.application\\accountapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E2D4BE-A80C-4A10-A87C-BBBDC9393BDF}|AccountManagement.Application\\AccountManagement.Application.csproj|solutionrelative:accountmanagement.application\\accountapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\permissiontaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\permissiontaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\0_framework\\infrastructure\\ipermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\ipermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\pages\\account.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\pages\\account.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\pages\\account.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\file2025\\municipalmanagementsystem2025\\servicehost\\areas\\administration\\pages\\accountjobs\\accountjob\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\0_framework\\infrastructure\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\securitypagefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\securitypagefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\0_framework\\application\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\application\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\areas\\administration\\pages\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shared\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\areas\\administration\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\areas\\administration\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|solutionrelative:municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79870435-FC19-4A4D-85AE-EFB1E1793468}|AccountManagement.Domain\\AccountManagement.Domain.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmanagement.domain\\roleagg\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79870435-FC19-4A4D-85AE-EFB1E1793468}|AccountManagement.Domain\\AccountManagement.Domain.csproj|solutionrelative:accountmanagement.domain\\roleagg\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F711FC-F160-4326-8294-29C07AC1B0E1}|MunicipalityManagement.Infrastructure.Configuration\\MunicipalityManagement.Infrastructure.Configuration.csproj|solutionrelative:municipalitymanagement.infrastructure.configuration\\permissions\\municipalitypermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCF135CB-A091-4144-9EF6-403CC80645EC}|AccountManagement.Configuration\\AccountManagement.Configuration.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmanagement.configuration\\accountmanagementbootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCF135CB-A091-4144-9EF6-403CC80645EC}|AccountManagement.Configuration\\AccountManagement.Configuration.csproj|solutionrelative:accountmanagement.configuration\\accountmanagementbootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\0_framework\\infrastructure\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\repository\\jobschartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\jobschartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\repository\\accountjobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\repository\\accountjobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\mappings\\titelpermissionmpping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\mappings\\titelpermissionmpping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmangement.infrastructure.efcore\\mappings\\rolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A00755-23C9-4E5E-BEA5-A8D7D6D1A3DB}|AccountMangement.Infrastructure.EFCore\\AccountMangement.Infrastructure.EFCore.csproj|solutionrelative:accountmangement.infrastructure.efcore\\mappings\\rolemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\0_framework\\infrastructure\\needspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\needspermissionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E2D4BE-A80C-4A10-A87C-BBBDC9393BDF}|AccountManagement.Application\\AccountManagement.Application.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\accountmanagement.application\\accountapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E2D4BE-A80C-4A10-A87C-BBBDC9393BDF}|AccountManagement.Application\\AccountManagement.Application.csproj|solutionrelative:accountmanagement.application\\accountapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\permissiontaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\permissiontaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\0_framework\\infrastructure\\ipermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D78B2E-103C-4C77-AFE1-C2EA443C5F56}|0_Framework\\0_Framework.csproj|solutionrelative:0_framework\\infrastructure\\ipermissionexposer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|d:\\file_software\\municipalproject\\finalproject\\municipalmanagementsystem\\servicehost\\areas\\administration\\pages\\accountjobs\\accountjob\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{073552E4-6BBD-4490-838A-6AB2B16A9B8E}|ServiceHost\\ServiceHost.csproj|solutionrelative:servicehost\\areas\\administration\\pages\\accountjobs\\accountjob\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,11 +130,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:07:21.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Menu.cshtml",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
+              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
+              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T09:02:20.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\Roles.cs",
+              "RelativeDocumentMoniker": "0_Framework\\Infrastructure\\Roles.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\Roles.cs",
+              "RelativeToolTip": "0_Framework\\Infrastructure\\Roles.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:01:27.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ServiceHost\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ServiceHost\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T21:55:33.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Application\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "0_Framework\\Application\\AuthHelper.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Application\\AuthHelper.cs",
+              "RelativeToolTip": "0_Framework\\Application\\AuthHelper.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:04:07.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Account.cshtml.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Pages\\Account.cshtml.cs",
+              "RelativeDocumentMoniker": "ServiceHost\\Pages\\Account.cshtml.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Pages\\Account.cshtml.cs",
+              "RelativeToolTip": "ServiceHost\\Pages\\Account.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA4wBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:43:32.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SecurityPageFilter.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\SecurityPageFilter.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\SecurityPageFilter.cs",
               "RelativeDocumentMoniker": "ServiceHost\\SecurityPageFilter.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\SecurityPageFilter.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\SecurityPageFilter.cs",
               "RelativeToolTip": "ServiceHost\\SecurityPageFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -143,115 +217,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T12:07:21.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Menu.cshtml",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
-              "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
-              "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Shared\\_Menu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T09:02:20.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\Roles.cs",
-              "RelativeDocumentMoniker": "0_Framework\\Infrastructure\\Roles.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\Roles.cs*",
-              "RelativeToolTip": "0_Framework\\Infrastructure\\Roles.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T09:01:27.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ServiceHost\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ServiceHost\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-13T21:55:33.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthHelper.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Application\\AuthHelper.cs",
-              "RelativeDocumentMoniker": "0_Framework\\Application\\AuthHelper.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Application\\AuthHelper.cs*",
-              "RelativeToolTip": "0_Framework\\Application\\AuthHelper.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wBgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:04:07.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Program.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Program.cs",
               "RelativeDocumentMoniker": "ServiceHost\\Program.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Program.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Program.cs",
               "RelativeToolTip": "ServiceHost\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAD0AAABoAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAD0AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T07:51:10.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ServiceHost\\appsettings.Development.json",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\appsettings.Development.json",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\appsettings.Development.json",
               "RelativeToolTip": "ServiceHost\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-17T23:17:15.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T23:17:15.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MunicipalityPermissionExposer.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
               "RelativeDocumentMoniker": "MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
               "RelativeToolTip": "MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissionExposer.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAQwGgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T21:06:13.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T21:06:13.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AccountManagementBootstrapper.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
               "RelativeDocumentMoniker": "AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
               "RelativeToolTip": "AccountManagement.Configuration\\AccountManagementBootstrapper.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Repository\\RoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "JobsChartRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Repository\\JobsChartRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,24 +303,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\appsettings.json",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\appsettings.json",
               "RelativeDocumentMoniker": "ServiceHost\\appsettings.json",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\appsettings.json",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\appsettings.json",
               "RelativeToolTip": "ServiceHost\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T11:39:30.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T11:39:30.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
               "RelativeToolTip": "AccountManagement.Domain\\RoleAgg\\IRoleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MunicipalityPermissions.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
               "RelativeDocumentMoniker": "MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
               "RelativeToolTip": "MunicipalityManagement.Infrastructure.Configuration\\Permissions\\MunicipalityPermissions.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAtwHwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -333,11 +339,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AccountRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Repository\\AccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -345,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AccountJobRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Repository\\AccountJobRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -357,23 +363,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LogRepository.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Repository\\LogRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T21:01:40.484Z"
+              "WhenOpened": "2024-12-13T21:01:40.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PermissionDto.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\PermissionDto.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\PermissionDto.cs",
               "RelativeDocumentMoniker": "0_Framework\\Infrastructure\\PermissionDto.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\PermissionDto.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\PermissionDto.cs",
               "RelativeToolTip": "0_Framework\\Infrastructure\\PermissionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RoleMapping.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Mappings\\RoleMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -393,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "TitelPermissionMpping.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
               "RelativeDocumentMoniker": "AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
               "RelativeToolTip": "AccountMangement.Infrastructure.EFCore\\Mappings\\TitelPermissionMpping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -405,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "NeedsPermissionAttribute.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
               "RelativeDocumentMoniker": "0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
               "RelativeToolTip": "0_Framework\\Infrastructure\\NeedsPermissionAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PermissionTagHelper.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\PermissionTagHelper.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\PermissionTagHelper.cs",
               "RelativeDocumentMoniker": "ServiceHost\\PermissionTagHelper.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\PermissionTagHelper.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\PermissionTagHelper.cs",
               "RelativeToolTip": "ServiceHost\\PermissionTagHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IPermissionExposer.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\IPermissionExposer.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\IPermissionExposer.cs",
               "RelativeDocumentMoniker": "0_Framework\\Infrastructure\\IPermissionExposer.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\0_Framework\\Infrastructure\\IPermissionExposer.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\0_Framework\\Infrastructure\\IPermissionExposer.cs",
               "RelativeToolTip": "0_Framework\\Infrastructure\\IPermissionExposer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,37 +450,26 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
               "RelativeToolTip": "ServiceHost\\Areas\\Administration\\Pages\\AccountJobs\\AccountJob\\Create.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T14:05:07.031Z"
+              "WhenOpened": "2024-11-09T14:05:07.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AccountApplication.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountApplication.cs",
+              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountApplication.cs",
               "RelativeDocumentMoniker": "AccountManagement.Application\\AccountApplication.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\AccountManagement.Application\\AccountApplication.cs",
+              "ToolTip": "D:\\file_software\\MunicipalProject\\FinalProject\\MunicipalManagementSystem\\AccountManagement.Application\\AccountApplication.cs",
               "RelativeToolTip": "AccountManagement.Application\\AccountApplication.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAIA0wIQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T14:03:31.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Account.cshtml.cs",
-              "DocumentMoniker": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Pages\\Account.cshtml.cs",
-              "RelativeDocumentMoniker": "ServiceHost\\Pages\\Account.cshtml.cs",
-              "ToolTip": "D:\\file_software\\MunicipalProject\\File2025\\MunicipalManagementSystem2025\\ServiceHost\\Pages\\Account.cshtml.cs",
-              "RelativeToolTip": "ServiceHost\\Pages\\Account.cshtml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T17:43:32.487Z"
             }
           ]
         }
