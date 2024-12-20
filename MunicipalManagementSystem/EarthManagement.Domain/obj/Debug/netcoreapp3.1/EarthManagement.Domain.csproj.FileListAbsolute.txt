@@ -1,0 +1,5 @@
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\EarthManagement.Domain\obj\Debug\netcoreapp3.1\EarthManagement.Domain.csproj.AssemblyReference.cache
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\EarthManagement.Domain\obj\Debug\netcoreapp3.1\EarthManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\EarthManagement.Domain\obj\Debug\netcoreapp3.1\EarthManagement.Domain.AssemblyInfoInputs.cache
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\EarthManagement.Domain\obj\Debug\netcoreapp3.1\EarthManagement.Domain.AssemblyInfo.cs
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\EarthManagement.Domain\obj\Debug\netcoreapp3.1\EarthManagement.Domain.csproj.CoreCompileInputs.cache

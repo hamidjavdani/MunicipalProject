@@ -1,0 +1,67 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Municipality.Sakhteman.IndexModel
+@{
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="m-b-30">
+                            <button id="addToTable" class="btn btn-primary waves-effect waves-light">Add
+                                <i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-bordered table-striped" id="datatable-editable">
+                    <thead>
+                        <tr>
+                            <th>Rendering engine</th>
+                            <th>Browser</th>
+                            <th>Platform(s)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                 
+                        <tr class="gradeA">
+                            <td>Gecko</td>
+                            <td>Seamonkey 1.1</td>
+                            <td>Win 98+ / OSX.2+</td>
+                            <td class="actions">
+                                <a href="#" class="hidden on-editing save-row"><i class="fa fa-save"></i></a>
+                                <a href="#" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>
+                                <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+                                <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+                            </td>
+                        </tr>
+                        
+                 
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+    <script src="~/adminTheme/assets/magnific-popup/magnific-popup.js"></script>
+    <script src="~/adminTheme/assets/jquery-datatables-editable/jquery.dataTables.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+    <script src="~/adminTheme/assets/jquery-datatables-editable/datatables.editable.init.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable-editable').dataTable();
+        });
+    </script>
+}

@@ -1,0 +1,119 @@
+﻿@inject _0_Framework.Application.IAuthHelper Authelper;
+@{
+    var currentAccount = Authelper.CurrentAccountInfo();
+
+}
+<div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+        <div class="user-details">
+            <div class="pull-right">
+                <img src="~/AdminTheme/assets/images/avatar-1.jpg" alt="" class="thumb-md img-circle">
+            </div>
+            <div class="user-info">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-expanded="false">@currentAccount.Fullname <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> خروج</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-muted m-0">@currentAccount.Role</p>
+            </div>
+        </div>
+        <!--- Divider -->
+        <div id="sidebar-menu">
+            <ul>
+                <li>
+                    <a asp-page="/Index"
+                       class="waves-effect active"><i class="md md-home"></i><span>   پیش خوان </span></a>
+                </li>
+
+                <li class="has_sub">
+                    <a class="waves-effect">
+                        <i class="md md-satellite"></i><span>  ساخت وساز </span>
+                        <span class="pull-right"><i class="md md-add"></i></span>
+                    </a>
+                    <ul class="list-unstyled">
+                        <li><a asp-page="/Request/Index"> ثبت درخواست  </a></li>
+                        <li><a asp-page="/Request/Index"> مشاهده ضوابط </a></li>
+                        <li><a asp-page="/Request/Index"> مشاهده پروانه </a></li>
+                        <li><a asp-page="/Map/Melk/Index"> نقشه املاک  </a></li>
+                        <li><a asp-page="/Map/Mabar/Index"> نقشه معابر  </a></li>
+                    </ul>
+                </li>
+
+
+                @if (Authelper.CurrentAccountRole() == "1")
+            {
+
+
+
+                <li class="has_sub">
+                        <a class="waves-effect">
+                        <i class="md md-map"></i><span> حمل و نقل   </span>
+                        <span class="pull-right"><i class="md md-add"></i></span>
+                        </a>
+
+                        <ul class="list-unstyled">
+                            <li><a href="inbox.html">خرید طرح ترافیک</a></li>
+
+                            <li><a href="email-read.html">پرداخت عوارض خودرو</a></li>
+                        </ul>
+                    </li>
+
+            }
+
+
+                <li class="has_sub">
+                    <a class="waves-effect"><i class="md md-alarm"></i><span> استعلام و عوارض   </span>
+                    <span class="pull-right"><i class="md md-add"></i></span>
+                    </a>
+                    <ul class="list-unstyled">
+                        <li><a href="inbox.html">  فرم محاسبات عوارض</a></li>
+                        <li><a href="email-read.html"> بخش جزئیات وصول</a></li>
+                    </ul>
+                </li>
+
+
+
+                <li class="has_sub">
+                    <a class="waves-effect"><i class="md md-mail"></i><span> فضای سبز   </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <ul class="list-unstyled">
+                        <li><a href="inbox.html"> در خواست قطع,هرس و جابجائی</a></li>
+                        <li><a href="email-read.html"> درخواست کاشت نهال</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="has_sub">
+                    <a class="waves-effect">
+                    <i class="md md-view-agenda">
+                        </i><span> فرهنگی و ورزشی   </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                    <ul class="list-unstyled">
+                        <li><a href="inbox.html"> مجوز نصب تابلو تبلیغاتی</a></li>
+                        <li><a href="email-read.html"> ثبت نام کلاس های آموزشی</a></li>
+                    </ul>
+                </li>
+
+
+
+
+
+
+
+                <li>
+                    <a asp-page="/Account" asp-page-handler="Logout"
+                       class="waves-effect active"><i class="fa fa-sign-out"></i><span> خروج </span></a>
+                </li>
+
+
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

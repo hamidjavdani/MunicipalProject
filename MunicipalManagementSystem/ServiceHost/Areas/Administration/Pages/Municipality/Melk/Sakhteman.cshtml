@@ -1,0 +1,102 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.Municipality.Melk.SakhtemanModel
+@{
+}
+<div class="row">
+    <div class="col-sm-12">
+        <h4 class="page-title pull-right">@ViewData["title"]</h4>
+        <p class="pull-left">
+            
+
+            @*<a class="btn btn-success btn-lg"
+                href="#showmodal=@Url.Page("./Index", "Create")">ایجاد  ملک جدید</a>*@
+            @*<a class="btn btn-success btn-lg" asp-page="Sakhteman">ثبت ساختمان   </a>*@
+        </p>
+    </div>
+</div>
+
+
+
+<div class="row" id="ProductCategoriesDiv">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"> جزئیات بنا</h3>
+            </div>
+            <div>
+
+                <a class="btn btn-warning pull-right m-rl-5"
+                   href="#showmodal=@Url.Page("./Sakhteman", "Create", new { id =Model.idmelk})">
+                    <i class="fa fa-edit"></i>ایجاد طبقه
+                </a>
+
+                <a class="btn btn-warning waves-effect waves-light m-b-5"
+                   asp-page="Sakhteman" asp-route-id="22">
+                    <i class="fa fa-edit"></i> بازگشت
+                </a>
+            </div>
+
+
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="datatable" class="table table-striped table-bordered" border="1">
+                            <thead>
+                                <tr>
+                                    <th>ردیف</th>
+                                    <th>نوع طبقه</th>
+                                    <th>نوع کاربری</th>
+                                    <th>نوع استفاده</th>
+                                    <th>  نوع اسکلت</th>
+                                    <th>مساحت</th>
+
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.sakhtemancategories)
+                            {
+                                <tr>
+                                        <td>@item.Id</td>
+                                        @*<td>
+                                                <img src="~/ProductPictures/@item.Codenosazi" style="width: 70px; height: 70px" />
+                                            </td>*@
+                                        <td>@item.Nametabagheh</td>
+                                        <td>@item.Namekarbari</td>
+                                        <td>@item.Idestefadeh</td>
+                                        <td>@item.Ideskelet</td>
+                                        <td>@item.Masahat</td>
+                                        <td>
+
+                                            <a class="btn btn-warning pull-right m-rl-5"
+                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                                <i class="fa fa-edit"></i> ویرایش
+                                            </a>
+
+                                            <a class="btn btn-warning waves-effect waves-light m-b-5"
+                                               asp-page="Sakhteman"    asp-route-id="@item.Id">
+                                                <i class="fa fa-edit"></i> ثبت ساختمان
+                                            </a>
+                                        </td>
+                                    </tr>
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<input type="hidden" asp-for="Id" value="@Model.Id" />*@
+</div>
+
+@section Scripts {
+    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').dataTable();
+        });
+    </script>
+}

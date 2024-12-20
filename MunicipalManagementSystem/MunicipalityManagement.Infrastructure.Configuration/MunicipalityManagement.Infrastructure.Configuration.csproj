@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <LangVersion>11</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+
+  
+  <ItemGroup>
+ 
+    <ProjectReference Include="..\01_MunicipalQuery\01_MunicipalQuery.csproj" />
+ 
+    <ProjectReference Include="..\MunicipalityManagement.Application\MunicipalityManagement.Application.csproj" />
+    <ProjectReference Include="..\MunicipalityManagement.Domain\MunicipalityManagement.Domain.csproj" />
+    <ProjectReference Include="..\MunicipalityManagement.Infrastructure.EFCore\MunicipalityManagement.Infrastructure.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

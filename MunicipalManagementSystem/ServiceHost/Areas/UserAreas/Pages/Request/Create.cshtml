@@ -1,0 +1,197 @@
+﻿@model MunicipalityManagement.Application.Contracts.Request.CreateRequest
+@{
+}
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title"> درخواست جدید</h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+
+
+    <div class="modal-body">
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <br />
+                    <label class="control-label">کد  نوسازی</label>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmantagheh" class="control-label">منطقه</label>
+                    <input type="text" class="form-control" asp-for="Cnmantagheh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmantagheh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnhozeh" class="control-label">حوزه</label>
+                    <input type="text" class="form-control" asp-for="Cnhozeh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnhozeh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnblock" class="control-label">بلوک</label>
+                    <input type="text" class="form-control" asp-for="Cnblock" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnblock" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmelk" class="control-label">ملک</label>
+                    <input type="text" class="form-control" asp-for="Cnmelk" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmelk" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="modal-header">
+
+        </div>
+        <br />
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="RequestType" class="control-label">عنوان درخواست </label>
+                    <select class="form-control" asp-for="RequestType"
+                            asp-items='new SelectList(Model.TitleRequests, "Id", "Name")'>
+                        <option value="0">عنوان درخواست </option>
+                    </select>
+                    <span asp-validation-for="RequestType" class="error"></span>
+                </div>
+            </div>
+            
+        </div>
+     
+        <div class="row">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Codemelk" class="control-label">نام مالک</label>
+                        <input type="text" class="form-control" asp-for="Codemelk">
+                        <span asp-validation-for="Codemelk" class="error"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="AccountId" class="control-label"> کد ملی</label>
+                        <input type="text" class="form-control" asp-for="AccountId">
+                        <span asp-validation-for="AccountId" class="error"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IssueTrackingNo" class="control-label"> شماره شناسنامه</label>
+                        <input type="text" class="form-control" asp-for="IssueTrackingNo">
+                        <span asp-validation-for="IssueTrackingNo" class="error"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="RequestType" class="control-label"> شماره موبایل</label>
+                        <input type="text" class="form-control" asp-for="RequestType">
+                        <span asp-validation-for="RequestType" class="error"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IssueTrackingNo" class="control-label"> نام وکیل</label>
+                        <input type="text" class="form-control" asp-for="IssueTrackingNo">
+                        <span asp-validation-for="IssueTrackingNo" class="error"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="RequestType" class="control-label"> شماره وکالت</label>
+                        <input type="text" class="form-control" asp-for="RequestType">
+                        <span asp-validation-for="RequestType" class="error"></span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label"> کارت ملی</label>
+                        <input type="file" class="form-control" accept="image/*">
+                        <span class="error"></span>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label">  شناسنامه</label>
+                        <input type="file" class="form-control" accept="image/*">
+                        <span class="error"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label"> برگه ثبت نام ثنا </label>
+                        <input type="file" class="form-control" accept="image/*">
+                        <span class="error"></span>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label"> مدارک وکیل </label>
+                        <input type="file" class="form-control" accept="image/*">
+                        <span class="error"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+       
+     
+        
+        
+        
+    </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+            <button type="submit" class="btn btn-info waves-effect waves-light">ایجاد</button>
+        </div>
+
+</form>

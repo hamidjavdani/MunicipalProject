@@ -1,0 +1,175 @@
+﻿@model MunicipalityManagement.Application.Contracts.Sakhteman.CreateSakhteman
+@{
+}
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"
+            aria-hidden="true">
+        ×
+    </button>
+    <h4 class="modal-title" dir="rtl">
+        ایجاد ساختمان ملک:
+      
+    </h4>
+</div>
+
+<form asp-page="./Sakhteman" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idtabagheh" class="control-label">نوع طبقه</label>
+                    <select class="form-control" asp-for="Idtabagheh"
+                            asp-items='new SelectList(Model.ListBoxtabagheh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idtabagheh" class="error"></span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idkarbari" class="control-label">نوع کاربری</label>
+                    <select class="form-control" asp-for="Idkarbari"
+                            asp-items='new SelectList(Model.ListBoxkarbari, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idkarbari" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idestefadeh" class="control-label">نوع استفاده</label>
+                    <select class="form-control" asp-for="Idestefadeh"
+                            asp-items='new SelectList(Model.ListBoxestefadeh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idestefadeh" class="error"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+
+
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Ideskelet" class="control-label">نوع اسکلت</label>
+                    <select class="form-control" asp-for="Ideskelet"
+                            asp-items='new SelectList(Model.ListBoxeskelet, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Ideskelet" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idestefadeh" class="control-label">مرحله ساختمانی</label>
+                    <select class="form-control" asp-for="Idestefadeh"
+                            asp-items='new SelectList(Model.ListBoxestefadeh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idestefadeh" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idnama" class="control-label">نوع نما</label>
+                    <select class="form-control" asp-for="Idnama"
+                            asp-items='new SelectList(Model.ListBoxnama, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idnama" class="error"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Salsakht" class="control-label"> سال ساخت / پروانه</label>
+                    <input type="text" class="form-control" asp-for="Salsakht">
+                    <span asp-validation-for="Salsakht" class="error"></span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Tedadvahed" class="control-label">تعداد واحد </label>
+                    <input type="text" class="form-control" asp-for="Tedadvahed">
+                    <span asp-validation-for="Tedadvahed" class="error"></span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Masahat" class="control-label">مساحت بنا </label>
+                    <input type="text" class="form-control" asp-for="Masahat">
+                    <span asp-validation-for="Masahat" class="error"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Pishamadegi" class="control-label">پیش آمدگی</label>
+                    <input type="text" class="form-control" asp-for="Pishamadegi">
+                    <span asp-validation-for="Pishamadegi" class="error"></span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Ertefah" class="control-label">ارتفاع طبقه </label>
+                    <input type="text" class="form-control" asp-for="Ertefah">
+                    <span asp-validation-for="Ertefah" class="error"></span>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Masahahttariz" class="control-label">مساحت تعریض </label>
+                    <input type="text" class="form-control" asp-for="Masahahttariz">
+                    <span asp-validation-for="Masahahttariz" class="error"></span>
+                </div>
+            </div>
+
+
+        </div>
+        <input type="hidden" asp-for="Idmelk" value="@Model.Idmelk" />
+
+    </div>
+
+
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ثبت</button>
+    </div>
+</form>

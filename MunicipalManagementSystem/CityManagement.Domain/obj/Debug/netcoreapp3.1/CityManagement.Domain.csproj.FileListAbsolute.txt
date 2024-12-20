@@ -1,0 +1,13 @@
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\bin\Debug\netcoreapp3.1\CityManagement.Domain.deps.json
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\bin\Debug\netcoreapp3.1\CityManagement.Domain.dll
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\bin\Debug\netcoreapp3.1\CityManagement.Domain.pdb
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.dll
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\bin\Debug\netcoreapp3.1\0_Framework.pdb
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.csproj.AssemblyReference.cache
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.AssemblyInfoInputs.cache
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.AssemblyInfo.cs
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.csproj.CoreCompileInputs.cache
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityMana.A3D955AA.Up2Date
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.dll
+D:\file_software\MunicipalProject\File_2022\MunicipalManagementSystem\CityManagement.Domain\obj\Debug\netcoreapp3.1\CityManagement.Domain.pdb

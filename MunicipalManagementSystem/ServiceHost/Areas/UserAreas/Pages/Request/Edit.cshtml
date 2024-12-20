@@ -1,0 +1,111 @@
+﻿@model MunicipalityManagement.Application.Contracts.Request.CreateRequest
+@{
+}
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h4 class="modal-title">  انتخاب مهندس طراح </h4>
+</div>
+
+<form asp-page="./Index" asp-page-handler="Create"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+
+
+    <div class="modal-body">
+
+
+        <div class="row">
+          
+            <div class="col-md-3">
+                <div class="form-group">
+                    <br />
+                    <label class="control-label">کد  نوسازی</label>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmantagheh" class="control-label">منطقه</label>
+                    <input type="text" class="form-control" asp-for="Cnmantagheh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmantagheh" class="error"></span>
+                </div>
+            </div>
+          
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnhozeh" class="control-label">حوزه</label>
+                    <input type="text" class="form-control" asp-for="Cnhozeh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnhozeh" class="error"></span>
+                </div>
+            </div>
+          
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnblock" class="control-label">بلوک</label>
+                    <input type="text" class="form-control" asp-for="Cnblock" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnblock" class="error"></span>
+                </div>
+            </div>
+           
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmelk" class="control-label">ملک</label>
+                    <input type="text" class="form-control" asp-for="Cnmelk" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmelk" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="modal-header">
+
+        </div>
+        <br />
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="RequestType" class="control-label">انتخاب مهندس طراح  </label>
+                    <select class="form-control" asp-for="RequestType">
+                        <option value="0">انتخاب  مهندس طراح </option>
+                    </select>
+                    <span asp-validation-for="RequestType" class="error"></span>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+  
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">انتخاب طراح</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ارسال به کارتابل طراح</button>
+    </div>
+
+
+</form>
+
+@section Scripts {
+    <script src="~/lib/api/JavaScript.js"></script>
+}

@@ -1,0 +1,26 @@
+﻿@page
+@model ServiceHost.Areas.UserAreas.Pages.Request.GetEngineersModel
+@{
+}
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+
+           
+
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <form method="post">
+                            
+                            <input type="number" value="" onchange="GetEngineers(4,3000)" />
+                            <button type="submit" class="btn btn-info waves-effect waves-light">ثبت شغل جدید</button>
+                            <a asp-page="./Index" class="btn btn-dark waves-effect waves-light m-b-5">بازگشت</a>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

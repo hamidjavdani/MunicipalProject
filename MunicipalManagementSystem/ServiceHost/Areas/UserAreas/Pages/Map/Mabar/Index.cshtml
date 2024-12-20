@@ -1,0 +1,282 @@
+﻿@page
+@model ServiceHost.Areas.UserAreas.Pages.Map.Mabar.IndexModel
+@{
+    Layout = "Shared/_UsersLayout";
+ViewData["title"] = " نقشه ";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">جستجو املاک</h3>
+            </div>
+            <div class="panel-body">
+                <form class="form-inline" role="form" method="get">
+
+                    <div class="row">
+
+
+                        <div class="col-md-1">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder=" منطقه جدید" onchange="makeSlug('Name', 'Slug')">
+                                <span class="error"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder=" حوزه" onchange="makeSlug('Name', 'Slug')">
+                                <span class="error"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-1">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder=" بلوک" onchange="makeSlug('Name', 'Slug')">
+                                <span class="error"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-1">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder=" ملک" onchange="makeSlug('Name', 'Slug')">
+                                <span class="error"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <br />
+                    <div class="row">
+
+                        @*<div class="col-md-3">
+                                <div class="form-group">
+
+                                    <input class="form-control" placeholder=" مالک">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+
+                                    <input class="form-control" placeholder=" آدرس">
+                                </div>
+                            </div>*@
+                        <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                        <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                    </div>
+
+                    <br />
+                    @*<div class="row">
+
+                            <div class="col-md-3">
+
+
+                                <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                                <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+                            </div>
+                        </div>*@
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row" id="ProductCategoriesDiv">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">نقشه</h3>
+            </div>
+            <div class="panel-body">
+                <div>
+                    <br />
+                </div>
+                <div id="map"
+                     style="height: 800px; background-color: #eae2e2">
+
+                </div>
+
+
+                <div id="scale_line"
+                     style="width:100px;height:90px;
+position:absolute;left:20px;bottom:20px;z-index:2000;background:#434a5a;color:#fff;opacity: 0.6;text-align:left;padding:10px;border:1px solid #d0d0d0;direction:ltr">
+
+                </div>
+                <div id="mouse_position"
+                     style="width:100px;
+height:40px;position:absolute;left:20px;bottom:105px;
+z-index:2000;background:#434a5a;color:#fff;
+opacity: 0.6;text-align:left;padding:10px;border:1px solid #d0d0d0"></div>
+
+                <img id="minimize" src="~/MapFile/content/img/minimize.png" style="width:40px;position:absolute;right:0px;top:50px;cursor:pointer;display:none" />
+                <img id="maximize" src="~/MapFile/content/img/maximize.png" style="display:none;width:40px;position:absolute;right:0px;top:50px;cursor:pointer" />
+
+                <div id="layers" style="width:10px;height:10px;background-color:#444a5a">
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8FlDqv56V3-6bdSrIaooRMpMazj97SVs">
+
+    </script>
+
+    <script src="~/MapFile/Scripts/map1.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var map = new OpenLayers.Map('map', {
+                maxExtent: new OpenLayers.Bounds(681484.000000, 4044055.915519, 686537.000000, 4047844.084481),
+                maxResolution: 6.324155
+            });
+            var mslayer = new OpenLayers.Layer.MapServer("MapServer Layer",
+                "http://127.0.0.1/cgi-bin/mapserv.exe?map=/ms4w/apps/local-demo/localmabar.map&",
+                { layers: 'sari1 sari2 sari3' },
+                { singleTile: "true", ratio: 1 });
+            map.addLayer(mslayer);
+            map.zoomToMaxExtent();
+
+            // google.maps.event.trigger(map.data, 'click');
+            map.events.register("click", map, function (event) {
+                alert(
+                    //" (X):  " + event.xy.x + " (Y):  " + event.xy.y
+
+                    "1-4-10079-1 " + ":" + " کد نوسازی  قدیم "
+                    + "1-10-10028-1 " + ":" + " کد  ممیزی جدید "
+
+
+
+                    //+ " اداره زندان ها : " + "نام مالک "
+                    /*+ selected_layers_name.join(',')*/
+                );
+
+            });
+
+            //var selected_layers = [];
+            //var selected_layers_name = [];
+
+            // //   google.maps.event.trigger(map.data, 'click');
+            //map.events.register("click", map, function (data) {
+            //    var i, j, r = [];
+            //    for (i = 0; i < map.layers.length; i++) {
+            //        map.layers[i].setVisibility(false);
+            //    }
+            //    //step4
+            //    selected_layers = [];
+            //    //for (i = 0, j = data.selected.length; i < j; i++) {
+            //    //    layer_id = data.instance.get_node(data.selected[i]).id;
+            //    //    is_child = data.instance.get_node(data.selected[i]).children.length == 0;
+
+            //    //    if (is_child) {
+            //    //        if ($.inArray(layer_id, not_valid_layer) == -1) {
+            //    //            selected_layers.push(layer_id.split('$')[1]);
+            //    //            selected_layers_name.push(layer_id.split('$')[0]);
+            //    //        }
+            //    //        map.getLayersByName(layer_id.split('$')[0])[0].setVisibility(true);
+            //    //    }
+            //    //}
+            //   // alert(" (X):  " + event.xy.x + " (Y):  " + event.xy.y + "  عرض نقشه: " + map.getSize().w + "data=" + "1"//selected_layers_name.join(','));
+            //   //);
+
+            //});
+
+
+
+            //  init_map1();
+            // create_legend();
+        });
+
+
+
+        function create_legend() {
+            //step3
+            var not_valid_layer = ['sari1', 'sari2', 'sari3'];
+
+            $('#legend_layers').on('changed.jstree', function (e, data) {
+                var i, j, r = [];
+                for (i = 0; i < map.layers.length; i++) {
+                    map.layers[i].setVisibility(false);
+                }
+                //step4
+                selected_layers = [];
+                for (i = 0, j = data.selected.length; i < j; i++) {
+                    layer_id = data.instance.get_node(data.selected[i]).id;
+                    is_child = data.instance.get_node(data.selected[i]).children.length == 0;
+
+                    if (is_child) {
+                        if ($.inArray(layer_id, not_valid_layer) == -1) {
+                            selected_layers.push(layer_id.split('$')[1]);
+                            selected_layers_name.push(layer_id.split('$')[0]);
+                        }
+                        map.getLayersByName(layer_id.split('$')[0])[0].setVisibility(true);
+                    }
+                }
+
+            }).jstree({
+                "checkbox": {
+                    "keep_selected_style": false
+                },
+                "plugins": ["wholerow", "checkbox"],
+                'core': {
+                    'data': [
+                        {
+                            'text': 'GeoServer Layers',
+                            'state': {
+                                'opened': true,
+                                'selected': false
+                            },
+                            'children': layer_json
+                        },
+                        {
+                            'text': 'Google Layers',
+                            'state': {
+                                'opened': false,
+                                'selected': false
+                            },
+                            'children': [
+                                { 'id': 'google_street', 'text': 'گوگل استریت', state: { 'opened': true, 'selected': true } },
+                            ]
+                        },
+                        {
+                            'text': 'OpenStreetMap',
+                            'state': {
+                                'opened': false,
+                                'selected': false
+                            },
+                            'children': [
+                                { 'id': 'osm_map', 'text': 'OpenStreetMap' },
+                            ]
+                        },
+                        {
+                            'text': 'ترسیمات کاربر',
+                            'state': {
+                                'opened': false,
+                                'selected': false
+                            },
+                            'children': [
+                                { 'id': 'vector_layer', 'text': 'نرسیمات کاربر' },
+                            ]
+                        }
+                    ]
+                }
+            });
+        }
+
+
+
+    </script>
+
+}

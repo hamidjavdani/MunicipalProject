@@ -1,0 +1,253 @@
+﻿@inject _0_Framework.Application.IAuthHelper Authelper;
+@{
+    var currentAccount = Authelper.CurrentAccountInfo();
+
+}
+<div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+        <div class="user-details">
+            <div class="pull-right">
+                <img src="~/ProductPictures/@currentAccount.ProfilePhoto" alt="" class="thumb-md img-circle">
+                
+            </div>
+            <div class="user-info">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@currentAccount.Fullname <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
+                        <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> خروج</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-muted m-0">@currentAccount.Role</p>
+            </div>
+        </div>
+        <!--- Divider -->
+        <div id="sidebar-menu">
+            <ul>
+                <li>
+                    <a asp-page="/Index"
+                       class="waves-effect active">
+                        <i class="md md-home"></i><span>  داشبورد </span>
+                    </a>
+                </li>
+
+                @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10006")
+            {
+                <li class="has_sub">
+                        <a class="waves-effect">
+                            <i class="md md-verified-user">
+                            </i><span>ثبت نام اشخاص </span>
+                            <span class="pull-right"><i class="md md-add"></i></span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li><a asp-page="/Persons/Person/Index">ثبت نام</a></li>
+
+
+                        </ul>
+                    </li>
+            }
+
+
+
+                    @if (Authelper.CurrentAccountRole() == "1")
+                {
+                    <li class="has_sub">
+                            <a class="waves-effect"><i class="md md-inbox"></i><span> اطلاعات پایه </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                            <ul class="list-unstyled">
+                                <li><a asp-page="/Municipality/ListTabaghat/Index">تعریف طبقات</a></li>
+                                <li><a asp-page="/Municipality/ListKarbari/Index">تعریف کاربری</a></li>
+                                <li><a asp-page="/Municipality/ListBoxCategory/Index">تعریف عنوان لیست</a></li>
+                                <li><a asp-page="/Municipality/ListBox/Index">تعریف جزئیات لیست</a></li>
+                                <li><a asp-page="/Municipality/TitleRequest/Index">تعریف  عنوان درخواست</a></li>
+                                <li><a asp-page="/JobsCharts/JobsChart/Index">چارت سازمانی </a></li>
+                                <li><a asp-page="/AccountJobs/AccountJob/Index"> انتساب شغل </a></li>
+                            </ul>
+                        </li>
+                }
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10006")
+                {
+                    <li class="has_sub">
+                            <a class="waves-effect"><i class="md md-verified-user"></i><span> اداره ممیزی  </span><span class="pull-right"><i class="md md-add"></i></span></a>
+                            <ul class="list-unstyled">
+                                <li><a asp-page="/Municipality/Melk/Index">عرصه ملک</a></li>
+                                <li><a asp-page="/Municipality/Melk/Indexkarbari">کاربری ملک</a></li>
+                                <li><a asp-page="/Municipality/Melk/Indexkarbaribaft">کاربری بافت ملک</a></li>
+                                <li><a asp-page="/Persons/Person/Index">مالکیت ملک</a></li>
+                                <li><a asp-page="/Municipality/Sakhteman/Index">اعیانی ملک</a></li>
+                                <li><a href="email-read.html">صنفی ملک</a></li>
+                                <li><a href="email-read.html">گذربندی و معابر</a></li>
+
+
+                            </ul>
+                        </li>
+                }
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "2")
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span> اداره شهرسازی </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1">ثبت درخواست</a></li>
+                                <li><a href="buttons.html">بازدید ملک</a></li>
+                                <li><a href="panels.html">ثبت بازدید</a></li>
+                                <li><a href="panels.html">تعیین خلاف</a></li>
+                                <li><a href="">فرم عوارض</a></li>
+                            </ul>
+                        </li>
+                }
+
+
+                    @if (
+                            Authelper.CurrentAccountRole() == "1" 
+                         || Authelper.CurrentAccountRole() == "10011"
+                         || Authelper.CurrentAccountRole() == "10016"
+                
+                    )
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span>  دبیرخانه ماده صد </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1"> ثبت رای  </a></li>
+                                <li><a href="buttons.html"> ابلاغ رای  </a></li>
+
+
+                            </ul>
+                        </li>
+                }
+
+
+
+
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10007")
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span> اداره درآمد </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1">محاسبه عوارض </a></li>
+                                <li><a href="buttons.html"> بخش وصول</a></li>
+                                <li><a href="panels.html">ثبت آمار</a></li>
+
+                            </ul>
+                        </li>
+                }
+
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10008")
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span> واحد نوسازی </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1">محاسبه عوارض </a></li>
+                                <li><a href="buttons.html"> بخش وصول</a></li>
+                                <li><a href="panels.html">ثبت آمار</a></li>
+
+                            </ul>
+                        </li>
+                }
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10009")
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span> واحد مشاغل </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1">محاسبه عوارض </a></li>
+                                <li><a href="buttons.html"> بخش وصول</a></li>
+                                <li><a href="panels.html">ثبت آمار</a></li>
+
+                            </ul>
+                        </li>
+                }
+
+                    @if (Authelper.CurrentAccountRole() == "1" || Authelper.CurrentAccountRole() == "10010")
+                {
+                    <li class="has_sub">
+                            <a href="#" class="waves-effect">
+                                <i class="md md-info"></i> <span> واحد اجرائیات </span> <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/UserAreas/Request/Index1"> ابلاغ بدهی </a></li>
+                                <li><a href="buttons.html"> اجرای ثبت </a></li>
+
+
+                            </ul>
+                        </li>
+                }
+
+
+
+                    <li class="has_sub">
+                        <a class="waves-effect">
+                            <i class="md md-map"></i><span> اطلاعات نقشه </span>
+                            <span class="pull-right"><i class="md md-add"></i></span>
+                        </a>
+                        <ul class="list-unstyled">
+
+                            <li><a asp-page="/Municipality/Map/Index"> عرصه</a></li>
+
+                        </ul>
+                    </li>
+                    @if (Authelper.CurrentAccountRole() == "1")
+                {
+                    <li class="has_sub">
+                            <a class="waves-effect">
+                                <i class="md md-verified-user"></i>
+                                <span>مدیریت کاربران</span>
+
+
+                                <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li><a asp-page="/Accounts/Account/Index"> کاربران</a></li>
+                                <li><a asp-page="/Accounts/Role/Index">نقش ها</a></li>
+                            <li><a asp-page="/Accounts/Log/Index">سوابق عملیات کاربران </a></li>
+                            </ul>
+                        </li>
+                }
+
+                    @if (Authelper.CurrentAccountRole() == "1")
+                {
+                    <li class="has_sub">
+                            <a class="waves-effect">
+                                <i class="md md-mail"></i><span>اسلایدر</span>
+                                <span class="pull-right"><i class="md md-add"></i></span>
+                            </a>
+                            <ul class="list-unstyled">
+
+                                <li><a asp-page="/Municipality/Slides/Index"> اسلایدر</a></li>
+
+                            </ul>
+                        </li>
+                }
+                    <li>
+                        <a asp-page="/Account" asp-page-handler="Logout"
+                           class="waves-effect active"><i class="fa fa-sign-out"></i><span> خروج </span></a>
+                    </li>
+
+
+                </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

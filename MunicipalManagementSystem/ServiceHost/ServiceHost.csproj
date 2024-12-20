@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <LangVersion>11</LangVersion>
+	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Administration\Pages\Accounts\Role\Create.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
+    <ProjectReference Include="..\MunicipalityManagement.Infrastructure.Configuration\MunicipalityManagement.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\PersonManagement.Configuration\PersonManagement.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\AdminArea\Data\" />
+    <Folder Include="Areas\AdminArea\Models\" />
+    <Folder Include="Areas\UserArea0\Data\" />
+    <Folder Include="Areas\UserArea0\Models\" />
+    <Folder Include="Areas\UserAreas\Pages\Order\" />
+    <Folder Include="wwwroot\Panel\assets\js\charts\google\bars\" />
+    <Folder Include="wwwroot\Panel\assets\js\charts\google\bubbles\" />
+    <Folder Include="wwwroot\Panel\assets\js\charts\google\lines\" />
+    <Folder Include="wwwroot\Panel\assets\js\charts\google\New folder\" />
+    <Folder Include="wwwroot\Panel\assets\js\charts\google\other\" />
+    <Folder Include="wwwroot\Panel\assets\js\maps\vector\" />
+    <Folder Include="wwwroot\Panel\assets\js\plugins\buttons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grunt" Version="0.1.13" />
+    <PackageReference Include="jQuery" Version="3.7.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\Administration\Pages\Municipality\Melk\Createmalek.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

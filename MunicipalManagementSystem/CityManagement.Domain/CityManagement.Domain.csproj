@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <LangVersion>11</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\0_Framework\0_Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DistrictAgg\" />
+    <Folder Include="NeighbourhoodAgg\" />
+    <Folder Include="BlockAgg\" />
+    <Folder Include="LandCodeAgg\" />
+    <Folder Include="DocumentAgg\" />
+    <Folder Include="EarthAgg\" />
+    <Folder Include="OwnersَAgg\" />
+    <Folder Include="OwnershipAgg\" />
+    <Folder Include="RegionAgg\" />
+  </ItemGroup>
+
+</Project>

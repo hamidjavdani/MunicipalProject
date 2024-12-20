@@ -1,0 +1,123 @@
+﻿@page
+@using MunicipalityManagement.Infrastructure.Configuration.Permissions
+@model ServiceHost.Areas.Administration.Pages.Municipality.Darkhast.Index1Model
+@{
+}
+@{
+    Layout = "Shared/_AdminLayout";
+ViewData["title"] = "مدیریت عنوان  درخواست  ";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h4 class="page-title pull-right">@ViewData["title"]</h4>
+        <p Permission="@MunicipalityPermissions.CreatelistBoxCategory" class="pull-left">
+            <a class="btn btn-success btn-lg"
+               href="#showmodal=@Url.Page("./Index1", "Create")">ایجاد عنوان  درخواست جدید</a>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">جستجو عنوان  درخواست</h3>
+            </div>
+            <div class="panel-body">
+                <form class="form-inline" role="form" method="get">
+
+                    <div class="row">
+
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" placeholder="  عنوان  درخواست " onchange="makeSlug('Name', 'Slug')">
+                                <span class="error"></span>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
+                        <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
+
+
+                    </div>
+
+
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="DarkhastDiv">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">گروه لیست   </h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <table id="datatable" class="table table-striped table-bordered" border="1">
+                            <thead>
+                                <tr>
+                                    <th>ردیف</th>
+                                    <th>عنوان لیست  </th>
+
+
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.darkhasts)
+                            {
+                                <tr>
+                                        <td>@item.Id</td>
+                                        @*<td>
+                                                <img src="~/ProductPictures/@item.Codenosazi" style="width: 70px; height: 70px" />
+                                            </td>*@
+
+                                        <td>@item.Name</td>
+
+                                        <td>
+                                            <a Permission="@MunicipalityPermissions.EditListBoxCategory" class="btn btn-warning pull-right m-rl-5"
+                                               href="#showmodal=@Url.Page("./Index1", "Edit", new { id = item.Id})">
+                                                <i class="fa fa-edit"></i> ویرایش
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-warning pull-right m-rl-5"
+                                               href="#showmodal=@Url.Page("./Index1", "Edit", new { id = item.Id})">
+                                                <i class="fa fa-remove"></i> حذف
+                                            </a>
+                                        </td>
+                                    </tr>
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/adminTheme/assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/adminTheme/assets/datatables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#datatable').dataTable();
+        });
+    </script>
+}

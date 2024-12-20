@@ -1,0 +1,205 @@
+﻿@model MunicipalityManagement.Application.Contracts.Melk.EditMelk
+@{
+}
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" 
+            aria-hidden="true">×</button>
+    <h4 class="modal-title" dir="rtl">
+        ویرایش کاربری ملک-کد نوسازی:
+        @*@Model.Cnmantagheh-@Model.Cnhozeh-@Model.Cnblock-@Model.Cnhozeh*@
+        @Model.Id
+    </h4>
+</div>                                      
+
+<form asp-page="./Indexkarbari" asp-page-handler="Edit"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <br />
+                    <label class="control-label">کد  جدید</label>
+
+
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmantagheh" class="control-label">منطقه</label>
+                    <input type="text" class="form-control" asp-for="Cnmantagheh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmantagheh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnhozeh" class="control-label">ناحیه</label>
+                    <input type="text" class="form-control" asp-for="Cnhozeh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnhozeh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnhozeh" class="control-label">محله</label>
+                    <input type="text" class="form-control" asp-for="Cnhozeh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnhozeh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnblock" class="control-label">بلوک</label>
+                    <input type="text" class="form-control" asp-for="Cnblock" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnblock" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmelk" class="control-label">ملک</label>
+                    <input type="text" class="form-control" asp-for="Cnmelk" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmelk" class="error"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <br />
+                    <label class="control-label">کد  قدیم</label>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmantaghehold" class="control-label">منطقه</label>
+                    <input type="text" class="form-control" asp-for="Cnmantaghehold" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmantaghehold" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnhozehold" class="control-label">حوزه</label>
+                    <input type="text" class="form-control" asp-for="Cnhozehold" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnhozehold" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnblockold" class="control-label">بلوک</label>
+                    <input type="text" class="form-control" asp-for="Cnblockold" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnblockold" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Cnmelkold" class="control-label">ملک</label>
+                    <input type="text" class="form-control" asp-for="Cnmelkold" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Cnmelkold" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="form-group">
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="modal-header">
+
+        </div>
+        <br />
+
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="form-group">
+                    <label asp-for="Idtarakompayeh" class="control-label">تراکم پایه</label>
+                    <input type="text" class="form-control" asp-for="Idtarakompayeh" onchange="makeSlug('Name', 'Slug')">
+                    <span asp-validation-for="Idtarakompayeh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label asp-for="Idkarbaritarhejameh" class="control-label">کاربری طرح جامع</label>
+                    <select class="form-control" asp-for="Idkarbaritarhejameh"
+                            asp-items='new SelectList(Model.ListBoxkarbaritarhejameh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idkarbaritarhejameh" class="error"></span>
+                </div>
+
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label asp-for="Idtarhehtafzili" class="control-label">کاربری طرح تفصیلی</label>
+                    <select class="form-control" asp-for="Idtarhehtafzili"
+                            asp-items='new SelectList(Model.ListBoxtarhehtafzili, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idtarhehtafzili" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idpahnehtarhejameh" class="control-label">پهنه عملکردی</label>
+                    <select class="form-control" asp-for="Idpahnehtarhejameh"
+                            asp-items='new SelectList(Model.ListBoxpahnehtarhejameh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idpahnehtarhejameh" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idhamjavari" class="control-label">کاربری همجواری</label>
+                    <select class="form-control" asp-for="Idhamjavari"
+                            asp-items='new SelectList(Model.ListBoxhamjavari, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idhamjavari" class="error"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Idzaribpahneh" class="control-label">z-ضریب</label>
+                    <select class="form-control" asp-for="Idzaribpahneh"
+                            asp-items='new SelectList(Model.ListBoxzaribpahneh, "Id", "Name")'>
+                        <option value="0">انتخاب کنید </option>
+                    </select>
+                    <span asp-validation-for="Idzaribpahneh" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <input type="hidden" asp-for="Id" value="@Model.Id" />
+    </div>
+
+
+
+
+
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
+        <button type="submit" class="btn btn-info waves-effect waves-light">ویرایش</button>
+    </div>
+</form>

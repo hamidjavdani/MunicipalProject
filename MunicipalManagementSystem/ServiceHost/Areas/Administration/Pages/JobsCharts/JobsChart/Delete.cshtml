@@ -1,0 +1,49 @@
+﻿@page
+@model ServiceHost.Areas.Administration.Pages.JobsCharts.JobsChart.DeleteModel
+@{
+}
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+
+            <div class="panel panel-heading" style="box-shadow:3px 1px 1px 0 gray; border-radius:2px;">
+                <span style="font-weight:bold;">
+                    <i class="icon-office"></i>
+                     حذف شغل  <span style="color:darkgreen;">@Model.Command.JobsChartName</span>
+                </span>
+            </div>
+
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <form method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Command.JobsChartName" class="control-label">نام شغل</label>
+                                        <input type="text" class="form-control" asp-for="Command.JobsChartName">
+                                        <span asp-validation-for="Command.JobsChartName" class="error"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Command.JobsChartDescription" class="control-label">توضیحات</label>
+                                        <input type="text" class="form-control" asp-for="Command.JobsChartDescription">
+                                        <span asp-validation-for="Command.JobsChartDescription" class="error"></span>
+                                    </div>
+                                </div>
+                                <input type="hidden" asp-for="Command.Id" value="@Model.Command.Id" />
+                                <input type="hidden" asp-for="Command.JobsChartLevel" value="@Model.Command.JobsChartLevel" />
+                            </div>
+                            <button type="submit" class="btn btn-info waves-effect waves-light">حذف  شغل </button>
+                            <a asp-page="./Index" class="btn btn-dark waves-effect waves-light m-b-5">بازگشت</a>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
