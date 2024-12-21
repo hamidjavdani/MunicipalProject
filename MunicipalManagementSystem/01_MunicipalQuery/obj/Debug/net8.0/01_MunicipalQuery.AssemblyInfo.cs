@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01_MunicipalQuery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04002ac2046f84789eccb049ed8771c4d724532d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9d5d61074c14ca7de0ec3cea0b0be7a8533a80c")]
 [assembly: System.Reflection.AssemblyProductAttribute("01_MunicipalQuery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01_MunicipalQuery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
