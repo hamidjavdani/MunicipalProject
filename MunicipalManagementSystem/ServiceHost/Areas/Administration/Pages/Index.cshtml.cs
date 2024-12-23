@@ -28,7 +28,7 @@ public class IndexModel : PageModel
         currentAccount = _authHelper.CurrentAccountInfo();
         long userid = currentAccount.Id;
 
-        return Redirect(url: "http://172.20.32.7:2024/LoginSystem.aspx/?id=" + userid);
+        return Redirect(url: "http://172.20.32.7:2030/LoginSystem.aspx/?id=" + userid);
         //return Redirect(url: "http://localhost:21267/Municipality2020/LoginSystem.aspx/?id=" + userid);
 
     }

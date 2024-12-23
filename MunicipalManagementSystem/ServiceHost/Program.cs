@@ -77,7 +77,7 @@ var app = builder.Build();
 
 //Create http pipline
 
-if (builder.Environment.IsDevelopment())
+if (builder.Environment.IsProduction())
 {
     _ = app.UseDeveloperExceptionPage();
 }
